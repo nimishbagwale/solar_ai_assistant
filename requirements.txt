@@ -1,0 +1,36 @@
+# Core Deep Learning
+torch
+torchvision
+
+# Computer Vision
+opencv-python
+
+# Numerical Processing
+numpy
+
+# Visualization
+matplotlib
+
+# Utilities
+tqdm
+scikit-learn
+
+# dataset
+download the massachussetts rooftop dataset
+create a folder named "data" then put the dataset folders in it
+
+If no GPU:
+    pip install -r requirements.txt
+With GPU: Check CUDA Version by "nvidia-smi" on cmd
+
+Look at:    CUDA Version: 12.x or CUDA Version: 11.8
+
+If CUDA 12.x
+    pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+Then:
+    pip install opencv-python numpy matplotlib tqdm scikit-learn
+
+If CUDA 11.x
+    pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+Then:
+    pip install opencv-python numpy matplotlib tqdm scikit-learn
